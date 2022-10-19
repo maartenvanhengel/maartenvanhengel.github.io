@@ -21,14 +21,15 @@ h5{
     position: absolute;
     right: 5px;
 }
-.first{
+.mainDiv{
     margin: 25px;
-    background-color: red;
+    background-color: #cfd1d7;
     border-radius: 25px;
     border: 2px solid black;
 }
 h3{
     margin-left: 27px;
+    color: #00a19c;
 }
 th{
     font-weight: bold;
