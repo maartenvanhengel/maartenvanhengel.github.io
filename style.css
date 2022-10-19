@@ -1,0 +1,45 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+header{
+    background-color:  #cfd1d7;
+    height: 100px;
+}
+h1{
+    top: 30px;
+    position: absolute;
+    color: blue;
+}
+h5{
+    color: black;
+    padding-left: 50px;
+    position: absolute;
+    top: 60px;
+}
+.contact{
+    position: absolute;
+    right: 5px;
+}
+.first{
+    margin: 25px;
+    background-color: red;
+    border-radius: 25px;
+    border: 2px solid black;
+}
+h3{
+    margin-left: 27px;
+}
+th{
+    font-weight: bold;
+}
+.spring{
+    padding-left: 15px;
+}
+table{
+  width: 100%;
+}
+
+th, td {
+    text-align: left;
+  }
