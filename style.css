@@ -3,13 +3,17 @@
 	padding: 0;
 }
 header{
-    background-color:  #cfd1d7;
+    background-color:  #06283D;
     height: 100px;
 }
-h1{
+header div, header h5{
+    color: white;
+}
+header h1{
+    left: 15px;
     top: 30px;
     position: absolute;
-    color: blue;
+    color: #47B5FF;
 }
 h5{
     color: black;
@@ -29,7 +33,8 @@ h5{
 }
 h3{
     margin-left: 27px;
-    color: #00a19c;
+    color: #256D85;
+    font-size: 150%;
 }
 th{
     font-weight: bold;
@@ -43,4 +48,7 @@ table{
 
 th, td {
     text-align: left;
+  }
+  th{
+    color: #06283D;
   }
