@@ -36,8 +36,9 @@ h3{
     color: #256D85;
     font-size: 150%;
 }
-th{
+.title{
     font-weight: bold;
+    color: #06283D;
 }
 .spring{
     padding-left: 15px;
@@ -48,7 +49,55 @@ table{
 
 th, td {
     text-align: left;
+
   }
-  th{
-    color: #06283D;
+  a{
+    margin-top: 40px;
+    margin-right: 10px;
   }
+li{
+    margin-left: 10px;
+}
+.small {
+    display: none;
+}
+  @media only screen and (max-width: 600px) {
+    .large {
+      display: none;
+    }
+    .small{display: block;}
+  }
+  .content{
+    margin-left: 10px;
+  }
+.smallTable{
+    margin-left: 15px
+}
+.mediumTable{
+    display: none;
+}
+@media only screen and (max-width: 920px) {
+    .bigTable{
+        display: none;
+    }
+    .mediumTable{
+        display: list-item;
+    }
+}
+.row{
+    display: flex;
+}
+.column{
+    flex: 50%;
+    padding: 5px;
+    margin-left: 15px;
+}
+#img1{
+    margin-right: 15px;
+    margin-bottom: 10px;
+}
+#img2, #img3{
+    display: none;
+    margin-right: 15px;
+    margin-bottom: 10px;
+}
