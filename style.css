@@ -1,103 +1,173 @@
-*{
-	margin: 0;
-	padding: 0;
+body{
+    margin: 0px 8px 0px 8px;
 }
-header{
-    background-color:  #06283D;
-    height: 100px;
+.btnRow{
+    height: 20px;
+    border: none;
 }
-header div, header h5{
+.btnShelf{
+    height: 20px;
+}
+.btnShelf
+ {
+     padding: 0,0,0,0;
+}
+.shelfColor{
+    width: 250px;
+    height: 50px;            
+    background-color: #efefef;
+    text-align: center;
+    color: transparent;
+}
+.shelfTransparent
+{
+    width: 250px;
+    height: 50px;
+    background-color: transparent;
+    border-color: transparent;
+    color: transparent;
+}
+tr a{
+    text-decoration: none; 
+    color:black;
+}
+#notificationsBar{
+    background-color: #90d5df;
+    width: 100%;
+    height: 23px;
+    color: black;
+    padding: 3px 8px 3px 10px;
+    font-size: 17px;
+    margin-left: -8px;
+    visibility: hidden ;
+}
+
+/*navbar*/
+ul {
+    height: 70px;
+    list-style-type: none;
+    overflow: hidden;
+    background-color: #194258;
+    margin: 0;
+    margin-left: -8px;
+    margin-right: -10px;
+}
+li {
+    float: left;
+    height: 50px;
+}
+li p{
+    margin: 10px 0px 15px 0px;
+    font-size: 40px;
+    color:#9dd4dd;
+}
+.navbtn{
+    height: 30px;
+    padding: 10px 10px 10px 0px;
+}
+.dropbtn{
+    width: 45px;
+    height: 45px;
+    background-color: #0098c3;
+    border: 1px solid #0399c9;
+    color: white;
+    font-size: 30px;
+    padding: 5px;
+}
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    width: 165px;
+    margin: 0px;
+    margin-left: -136px;
+    padding: 3px;
+  }
+  
+  .dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .dropdown-content:hover {
+    background-color: #ddd !important;
+  }
+  .show {
+    display: block;
+  }
+input[type=submit]{
+    background-color: #0098c3;
+    border: 1px solid #0399c9;
     color: white;
 }
-header h1{
-    left: 15px;
-    top: 30px;
-    position: absolute;
-    color: #47B5FF;
-}
-h5{
-    color: black;
-    padding-left: 50px;
-    position: absolute;
-    top: 60px;
-}
-.contact{
-    position: absolute;
-    right: 5px;
-}
-.mainDiv{
-    margin: 25px;
-    background-color: #cfd1d7;
-    border-radius: 25px;
-    border: 2px solid black;
-}
-h3{
-    margin-left: 27px;
-    color: #256D85;
-    font-size: 150%;
-}
-.title{
-    font-weight: bold;
-    color: #06283D;
-}
-.spring{
-    padding-left: 15px;
-}
-table{
-  width: 100%;
-}
-
-th, td {
-    text-align: left;
-
-  }
-  a{
-    margin-top: 40px;
+ #Amount1Value{
+    width: 250px;
+    text-align: center;
+ }
+ #Amount2Value{
+    width: 250px;
+    text-align: center;
+ }
+ input#SubmitBtn{
+    margin: 0px;
+    width: 100%;
+ }
+input {
+    width: 50px;
+    margin-left: 5px;
+ }
+ label{
+    margin-left: 10px;
+ }
+ input[type=checkbox]{
+    width: auto;
+    margin-left: 0px;
     margin-right: 10px;
-  }
-li{
-    margin-left: 10px;
-}
-.small {
-    display: none;
-}
-  @media only screen and (max-width: 600px) {
-    .large {
-      display: none;
-    }
-    .small{display: block;}
-  }
-  .content{
-    margin-left: 10px;
-  }
-.smallTable{
-    margin-left: 15px
-}
-.mediumTable{
-    display: none;
-}
-@media only screen and (max-width: 920px) {
-    .bigTable{
-        display: none;
-    }
-    .mediumTable{
-        display: list-item;
-    }
-}
-.row{
-    display: flex;
-}
-.column{
-    flex: 50%;
-    padding: 5px;
-    margin-left: 15px;
-}
-#img1{
-    margin-right: 15px;
-    margin-bottom: 10px;
-}
-#img2, #img3{
-    display: none;
-    margin-right: 15px;
-    margin-bottom: 10px;
-}
+ }
+ #tempDiv{
+    text-align: center;
+    visibility: hidden;
+ }
+ #tempDiv button{
+    background-color: #0098c3;
+    border: 1px solid #0399c9;
+    color: white;
+    height: 30px;
+    width: 210px;
+    font-size: 20px;
+ }
+
+ .MainTable{
+    border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+ }
+ .MainTable td{
+    text-align: center;
+ }
+td.left{
+    width: 280px;
+    background-color: red;
+    margin-left: 100%;
+ }
+ th{
+    text-align: center;
+    width: 250px;
+ }
+ th input{
+    text-align: center;
+    font-weight: bold;
+    width: 200px;
+    border: none;
+    border-bottom: 1px dotted black;
+    font-size: 20px;
+ }
+ th input:focus{
+    outline: none;
+ }
